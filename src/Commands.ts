@@ -1,6 +1,12 @@
 import { Command } from "./Command";
-import { JOIN } from "./commands/JOIN";
+import { SearchLoLPlayer } from "./commands/SearchLoLPlayer";
+import {test} from "./commands/test";
+import {minecraftCommand} from "./commands/minecraftCommand";
+import {apex} from "./commands/apex";
 
 export const Commands: Command[] = [
-    JOIN
+	SearchLoLPlayer,
+	test,
+	minecraftCommand,
+	apex
 ];
